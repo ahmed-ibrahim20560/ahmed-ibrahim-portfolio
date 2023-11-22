@@ -1,16 +1,19 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap');
+ /* navbar styyling */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&family=Roboto:wght@100;300;400&display=swap');
+
 
 :root {
   --fonttype: 'Poppins', sans-serif;
 }
 
-
-
-  * {
+* {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 li {
@@ -42,4 +45,30 @@ h1 {
   font-family: var(--fonttype);
   color: whitesmoke;
   font-size: 30px;
+}
+
+#gap {
+  height: 150px;
+  width: 100%;
+}
+
+/* about me section styling */
+
+#About-Me{
+margin-left: 150px;
+  
+}
+
+#heading-two {
+  font-size: 35px;
+  color: #294bc3;
+  
+}
+
+
+p {
+  line-height: 1.5;
+  word-spacing: 0.35rem;
+  padding-left: 30px;
+  border-left: thick double #294bc3;
 }
