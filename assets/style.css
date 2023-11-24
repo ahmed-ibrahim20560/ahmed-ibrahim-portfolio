@@ -33,7 +33,7 @@ li a:hover {
 }
 
 header {
-  height: 80px;
+  height: 90px;
   width: 100%;
   background: #abdbe3;
   display: flex;
@@ -48,21 +48,29 @@ h1 {
 }
 
 #gap {
-  height: 150px;
+  height: 135px;
   width: 100%;
+  /* background-image: url(./images/three-lights.jpeg); */
+  /* background-image: url(./images/dark-image.jpeg); */
+  /* background-image: url(./images/pure-black.jpg); */
+  background-image: url(./images/light-blue-pattern.jpeg);
+  /* background-image: url(./images/grey-checker.jpeg); */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* about me section styling */
 
 #About-Me{
 margin-left: 150px;
-  
+
+
 }
 
 #heading-two {
-  font-size: 35px;
+  font-size: 25px;
   color: #294bc3;
-  
+  white-space: normal;
 }
 
 
@@ -72,3 +80,7 @@ p {
   padding-left: 30px;
   border-left: thick double #294bc3;
 }
+
+/* My work section styling */ 
+
+
