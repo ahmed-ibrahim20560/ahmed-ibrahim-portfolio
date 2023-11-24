@@ -61,11 +61,7 @@ h1 {
 
 /* about me section styling */
 
-#About-Me{
-margin-left: 150px;
 
-
-}
 
 #heading-two {
   font-size: 25px;
@@ -83,4 +79,56 @@ p {
 
 /* My work section styling */ 
 
+#My-Work {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  'horison horison' 
+  'horison horison' 
+  'projecttwo projectthree' 
+  'projectfour projectfive';
+}
 
+.project {
+  height: 200px;
+}
+
+#horison {
+  grid-area: horison;
+  background-image: url(./images/grey-checker.jpeg);;
+}
+
+#projecttwo {
+  grid-area: projecttwo; 
+  background-image: url(./images/pure-black.jpg);
+}
+
+#projectthree {
+  grid-area: projectthree; 
+  background-image: url(./images/dark-image.jpeg);
+}
+
+#projectfour {
+  grid-area: projectfour; 
+  background-image: url(./images/three-lights.jpeg);
+}
+
+#projectfive {
+  grid-area: projectfive; 
+  background-image: url(./images/three-lights.jpeg);
+}
+
+.section {
+  display: flex;
+  gap: 2rem;
+} 
+.section-heading {
+  
+  flex: 0 0 300px;
+} 
+.section-content {
+  
+  flex: 1;
+} 
