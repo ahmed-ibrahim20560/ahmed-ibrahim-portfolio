@@ -90,6 +90,13 @@ p {
   border-left: thick solid var(--bordercolour);
 }
 
+img {
+  border-radius: 5px;
+  max-width: 30%;
+  height: auto;
+  padding: 10px;
+  margin-left: 180px;
+}
 /* My work section styling */ 
 
 #My-Work {
