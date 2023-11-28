@@ -6,6 +6,8 @@
 
 :root {
   --fonttype: 'Poppins', sans-serif;
+  --bordercolour: #A9A9A9;
+  --textcolour: #80989c;
 }
 
 * {
@@ -24,11 +26,12 @@ li a {
   margin: 20px; 
   text-decoration: none;
   font-family: var(--fonttype);
-  color:#80989c;
+  color:var(--textcolour);
 }
 
 li a:hover {
-  color: black;
+  background-color: black;
+  color: whitesmoke;
   font-size: 17px;
 }
 
@@ -65,8 +68,7 @@ h1 {
 
 #heading-two {
   font-size: 25px;
-  color: #294bc3;
-  white-space: normal;
+  color: rgb(41, 18, 156);
 }
 
 
@@ -74,12 +76,14 @@ p {
   line-height: 1.5;
   word-spacing: 0.35rem;
   padding-left: 30px;
-  border-left: thick double #294bc3;
+  border-left: thick solid var(--bordercolour);
 }
 
 /* My work section styling */ 
 
 #My-Work {
+  padding-left: 30px;
+  border-left: thick solid var(--bordercolour);
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr 1fr;
@@ -93,31 +97,48 @@ p {
 
 .project {
   height: 200px;
+  padding: 30px;
+  border: thick solid #abdbe3;
 }
 
 #horison {
   grid-area: horison;
-  background-image: url(./images/grey-checker.jpeg);;
+  background: url(./images/horison.png) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 #projecttwo {
   grid-area: projecttwo; 
-  background-image: url(./images/pure-black.jpg);
+  background: url(./images/coming-soon1.jpeg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 #projectthree {
   grid-area: projectthree; 
-  background-image: url(./images/dark-image.jpeg);
+  background: url(./images/coming-soon1.jpeg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 #projectfour {
   grid-area: projectfour; 
-  background-image: url(./images/three-lights.jpeg);
+  background: url(./images/coming-soon1.jpeg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 #projectfive {
   grid-area: projectfive; 
-  background-image: url(./images/three-lights.jpeg);
+  background: url(./images/coming-soon1.jpeg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .section {
@@ -129,6 +150,30 @@ p {
   flex: 0 0 300px;
 } 
 .section-content {
-  
   flex: 1;
+  margin: 40px 80px 40px 0;
 } 
+
+/* footer styling */
+
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0 30px 30px;
+  border-left: thick solid var(--bordercolour);
+}
+
+footer div a {
+  margin: 20px; 
+  text-decoration: none;
+  font-family: var(--fonttype);
+  color:var(--textcolour);
+}
+
+footer div a:hover {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 17px;
+}
