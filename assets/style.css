@@ -51,24 +51,37 @@ h1 {
 }
 
 #gap {
-  height: 135px;
+  height: 150px;
   width: 100%;
-  /* background-image: url(./images/three-lights.jpeg); */
-  /* background-image: url(./images/dark-image.jpeg); */
-  /* background-image: url(./images/pure-black.jpg); */
-  background-image: url(./images/light-blue-pattern.jpeg);
-  /* background-image: url(./images/grey-checker.jpeg); */
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(./images/anotherlightblue.jpeg);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#gap h2 {
+  background-color: var(--textcolour);
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  font-family: var(--fonttype);
 }
 
 /* about me section styling */
-section h2 {
+#heading-two {
 color: var(--textcolour);
 font-size: 30px;
 margin-left: 160px;
 margin-top: 30px;
 }
+
+#heading-three {
+  color: var(--textcolour);
+  font-size: 30px;
+  margin-left: 160px;
+  margin-top: 30px;
+  }
 
 p {
   line-height: 1.5;
