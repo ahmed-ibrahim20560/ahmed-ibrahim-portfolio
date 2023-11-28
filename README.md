@@ -6,3 +6,6 @@ I made sure to include a styled nav and footer with working links to make the pa
 
 ![Alt text](assets/images/screenshot.png)
 
+https://ahmed-ibrahim20560.github.io/ahmed-ibrahim-portfolio/
+
+https://github.com/ahmed-ibrahim20560/ahmed-ibrahim-portfolio
