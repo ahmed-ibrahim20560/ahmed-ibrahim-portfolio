@@ -93,6 +93,7 @@ p {
 /* My work section styling */ 
 
 #My-Work {
+  height: 80vh;
   padding-left: 30px;
   border-left: thick solid var(--bordercolour);
   display: grid;
@@ -106,11 +107,37 @@ p {
   'projectfour projectfive';
 }
 
+
 .project {
-  height: 200px;
+  height: 100%;
   padding: 30px;
   border: thick solid #abdbe3;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
 }
+
+.text {
+  background-color: #abdbe3;
+  width: 40%;
+  padding: 10px 0 10px 0;
+}
+
+.textone {
+  background-color: #abdbe3;
+  width: 15%;
+  padding: 10px 0 10px 0;
+
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+
+
 
 #horison {
   grid-area: horison;
@@ -120,11 +147,13 @@ p {
 
 }
 
+
+
 #projecttwo {
   grid-area: projecttwo; 
   background: url(./images/coming-soon1.jpeg) center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
 }
 
@@ -132,7 +161,7 @@ p {
   grid-area: projectthree; 
   background: url(./images/coming-soon1.jpeg) center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
 }
 
@@ -140,7 +169,7 @@ p {
   grid-area: projectfour; 
   background: url(./images/coming-soon1.jpeg) center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
 }
 
@@ -148,7 +177,7 @@ p {
   grid-area: projectfive; 
   background: url(./images/coming-soon1.jpeg) center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
 }
 
@@ -194,4 +223,12 @@ footer div a:hover {
   background-color: black;
   color: whitesmoke;
   font-size: 17px;
+}
+
+/* media queries */
+
+@media only screen and (max-width:700px) {
+  li {
+    display: none;
+  }
 }
